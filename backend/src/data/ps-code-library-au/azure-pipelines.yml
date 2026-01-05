@@ -1,0 +1,20 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  name: PS-Code-Market
+
+steps:
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      source activate base      
+      conda activate au-code-market
+      cd ~/au-code-market
+      python ./update-index.py

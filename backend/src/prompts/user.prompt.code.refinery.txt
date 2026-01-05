@@ -1,0 +1,23 @@
+Below are the three knowledge parts for you to understand:
+
+<<CORE_GUIDE>>
+(contains global rules and available APIs)
+
+<<TOPICAL_RULES>>
+(contains detailed lists of functions, parameters, variable paths, and naming patterns)
+
+<<EXAMPLES_PLAYBOOK>>
+(contains a few examples showing correct usage of the APIs and how simulation logic is written)
+
+---
+
+User query (process description):
+{{USER_QUERY}}
+
+Your task:
+1. Read and understand the three knowledge parts.
+2. Choose only the parts that help you implement the process described above (you can ignore irrelevant details).
+3. Using your understanding, generate a single JavaScript code block that correctly performs the described logic, making reasonable assumptions if needed.
+4. Add brief comments to explain what the code does.
+
+Output only the JavaScript code.
